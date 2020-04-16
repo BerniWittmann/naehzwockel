@@ -4,14 +4,26 @@
             <div class="container">
                 <div class="row">
                     <div class="centered">
+                        <a href="/" alt="Nähzwockel">
                         {% include title.svg %}
+                        </a>
                         <p>
-                          <a href="{{ site.social[0].url }}" id="cta-button" class="invisible btn btn-round page-scroll">
+                          <a href="{{ site.social[0].url }}" id="cta-button" class="btn btn-round">
                               <i class="fa fa-{{ site.social[0].title }} animated"></i> {{ site.social[0].title }}
+                          </a>
+                        </p>
+                        <p>
+                          <a href="mailto:{{ site.email }}" id="cta-button-small" class="btn btn-round btn-small">
+                              <i class="fa fa-envelope animated"></i> Bestellen
                           </a>
                         </p>
                     </div>
                 </div>
+                <div class="row">
+<a href="#about" class="page-scroll" style="font-size: 20px; color: white">
+  <i class="fa fa-angle-double-down fa-lg"></i>
+  </a>
+                  </div>
             </div>
         </div>
     </header>

@@ -119,7 +119,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background-color: rgba(10, 10, 10, 0.3);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -185,19 +185,27 @@ a:focus {
     border-radius: 10px;
     font-size: 40px;
     color: #fff;
-    background: 0 0;
+    background: rgba(10, 10, 10, 0.2);
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 
-#cta-button {
+.btn-small {
+  font-size: 30px;
+}
+
+.centered p {
+  margin-bottom: 20px;
+}
+
+#cta-button, #cta-button-small {
   opacity: 1;
   transition: opacity 0.4s;
   transition-delay: 0.2s;
 }
 
-#cta-button.invisible {
+#cta-button.invisible, #cta-button-small.invisible {
   opacity: 0;
 }
 
@@ -353,6 +361,11 @@ ul.banner-social-buttons li {
     .btn-round {
       font-size: 20px;
     }
+
+
+    .btn-small {
+      font-size: 16x;
+    }
 }
 
 footer {
@@ -387,7 +400,11 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-svg.vivius * {
+svg.vivius.no-fill * {
+  fill-opacity: 0;
+}
+
+svg.vivius.ongoing * {
   fill-opacity: 0;
   transition: fill-opacity 2s;
 }
@@ -401,6 +418,7 @@ svg.vivius.finished * {
 }
 
 .centered {
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
