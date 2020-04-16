@@ -34,3 +34,18 @@ $('.navbar-collapse ul li a').click(function() {
 $("a").mouseup(function(){
     $(this).blur();
 })
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  const titleVivius = new Vivus('title-svg', { type: 'oneByOne', duration: 200, delay: 0 }).stop().reset();
+setTimeout(() => {
+  titleVivius.play((obj) => {
+    obj.el.classList.add('finished');
+
+    obj.el.getElementById('titleSvgText').setAttribute('filter', 'url(#titleTextFilter)');
+    setTimeout(() => {
+      document.getElementById('cta-button').classList.remove('invisible');
+    }, 600);
+  });
+}, 1000);
+});
