@@ -7,13 +7,16 @@
                         <a href="/" alt="Nähzwockel">
                         {% include title.svg %}
                         </a>
+                        <div id="title-arrow-container">
+                        {% include arrow.svg %}
+                        </div>
                         <p>
-                          <a href="{{ site.social[0].url }}" id="cta-button" class="btn btn-round">
+                          <a href="{{ site.social[0].url }}" id="cta-button" class="btn btn-round {% if page.is_landing_page == true %}invisible{% endif %}">
                               <i class="fa fa-{{ site.social[0].title }} animated"></i> {{ site.social[0].title }}
                           </a>
                         </p>
                         <p>
-                          <a href="mailto:{{ site.email }}" id="cta-button-small" class="btn btn-round btn-small">
+                          <a href="mailto:{{ site.email }}" id="cta-button-small" class="btn btn-round btn-small {% if page.is_landing_page == true %}invisible{% endif %}">
                               <i class="fa fa-envelope animated"></i> Bestellen
                           </a>
                         </p>

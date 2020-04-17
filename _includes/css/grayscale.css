@@ -4,6 +4,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   font-family: 'Gulya';
+   src: url('/fonts/Gulya_Script.ttf');
+   font-weight: normal;
+   font-style: normal;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -199,13 +213,17 @@ a:focus {
   margin-bottom: 20px;
 }
 
-#cta-button, #cta-button-small {
+#cta-button, #cta-button-small, #title-arrow {
   opacity: 1;
   transition: opacity 0.4s;
   transition-delay: 0.2s;
 }
 
-#cta-button.invisible, #cta-button-small.invisible {
+ #title-arrow {
+   transition: opacity 0.8s;
+ }
+
+#cta-button.invisible, #cta-button-small.invisible, #title-arrow.invisible {
   opacity: 0;
 }
 
@@ -269,7 +287,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .download-section {
@@ -293,6 +312,7 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 200px;
+        padding-bottom: 200px;
     }
 
     .download-section {
@@ -336,6 +356,19 @@ ul.banner-social-buttons li {
     margin-bottom: 15px;
 }
 
+#title-arrow-container {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+#title-arrow {
+  width: 200px;
+  position: relative;
+  top: -57px;
+  left: -350px;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
@@ -366,9 +399,17 @@ ul.banner-social-buttons li {
     .btn-small {
       font-size: 16x;
     }
+
+    #title-arrow {
+      width: 120px;
+      position: relative;
+      top: -20px;
+      left: -200px;
+    }
 }
 
 footer {
+    background-color: #ddd;
     padding: 50px 0;
 }
 
@@ -423,4 +464,13 @@ svg.vivius.finished * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.font-gulya {
+  font-family: Gulya,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.about-title {
+  text-transform: none;
+  font-size: 50px;
 }

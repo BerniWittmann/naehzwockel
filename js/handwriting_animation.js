@@ -1,7 +1,3 @@
-document.getElementById('cta-button').classList.add('invisible');
-document.getElementById('cta-button-small').classList.add('invisible');
-document.getElementById('title-svg').classList.add('no-fill');
-
 window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('title-svg').classList.add('ongoing');
   document.getElementById('title-svg').classList.remove('no-fill');
@@ -11,13 +7,16 @@ window.addEventListener('DOMContentLoaded', () => {
       obj.el.classList.add('finished');
 
       obj.el.getElementById('titleSvgText').setAttribute('filter', 'url(#titleTextFilter)');
+
       setTimeout(() => {
-        obj.el.classList.add('ongoing');
-        document.getElementById('cta-button').classList.remove('invisible');
+        document.getElementById('title-arrow').classList.remove('invisible');
         setTimeout(() => {
-          document.getElementById('cta-button-small').classList.remove('invisible');
-        }, 600);
-      }, 600);
+          document.getElementById('cta-button').classList.remove('invisible');
+          setTimeout(() => {
+            document.getElementById('cta-button-small').classList.remove('invisible');
+          }, 600);
+        }, 200);
+      }, 800);
     });
   }, 1000);
 });
