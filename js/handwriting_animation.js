@@ -14,6 +14,9 @@ window.addEventListener('DOMContentLoaded', () => {
           document.getElementById('cta-button').classList.remove('invisible');
           setTimeout(() => {
             document.getElementById('cta-button-small').classList.remove('invisible');
+            setTimeout(() => {
+              document.getElementById('scroll-indicator').classList.remove('invisible');
+            }, 800);
           }, 600);
         }, 200);
       }, 800);

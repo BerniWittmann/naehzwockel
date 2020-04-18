@@ -213,7 +213,7 @@ a:focus {
   margin-bottom: 20px;
 }
 
-#cta-button, #cta-button-small, #title-arrow {
+#cta-button, #cta-button-small, #title-arrow, #scroll-indicator {
   opacity: 1;
   transition: opacity 0.4s;
   transition-delay: 0.2s;
@@ -223,7 +223,7 @@ a:focus {
    transition: opacity 0.8s;
  }
 
-#cta-button.invisible, #cta-button-small.invisible, #title-arrow.invisible {
+#cta-button.invisible, #cta-button-small.invisible, #title-arrow.invisible, #scroll-indicator.invisible {
   opacity: 0;
 }
 
@@ -473,4 +473,21 @@ svg.vivius.finished * {
 .about-title {
   text-transform: none;
   font-size: 50px;
+}
+
+#scroll-indicator {
+  position: relative;
+  top: 10vh;
+  font-size: 32px;
+  color: white;
+  text-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease-in-out, text-shadow 0.2s ease-in-out, opacity 0.8s;
+  display: inline-block;
+  transition-delay: 0s;
+}
+
+#scroll-indicator:hover {
+  color: white;
+  transform: scale(1.1) translate(0, 10px);
+  text-shadow: 0px 0px 14px rgba(0,0,0,0.7);
 }
