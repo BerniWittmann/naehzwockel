@@ -16,9 +16,9 @@ Zinglerstraße 50<br />
 <p>Telefon: +49 (0) 731/16578804<br />
 E-Mail: info@naehzwockel.de</p>
 
-<h2>Umsatzsteuer-ID</h2>
+<!--<h2>Umsatzsteuer-ID</h2>
 <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
-DE 999 999 999</p>
+DE 999 999 999</p>-->
 
 <h2>EU-Streitschlichtung</h2>
 <p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>.<br /> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
