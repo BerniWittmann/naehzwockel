@@ -33,3 +33,14 @@ permalink: pretty
 
 plugins:
   - jekyll-seo-tag
+
+image:
+  path: "/img/logo.png"
+  height: 100
+  width: 100
+
+seo:
+  name: "Nähzwockel"
+  type: LocalBusiness
+  links:
+    - https://instagram.com/naehzwockel
