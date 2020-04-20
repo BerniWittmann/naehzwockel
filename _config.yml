@@ -1,8 +1,11 @@
 # Site settings
 title: Nähzwockel
 email: bestellen@naehzwockel.de
-url: https://naehzwockel.de
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: "https://naehzwockel.de"
+author: Nähzwockel
+tagline: "Wiederverwendbare Produkte mit Liebe handgemacht"
+description: "Wiederverwendbare Produkte | Müll vermeiden | Umwelt schonen | mit Liebe handgemacht | Verkauf von Masken, Brottüten, Gemüsebeuteln, Bestecktaschen, Wärmekissen uvm."
+logo: "/img/logo.png"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -13,10 +16,20 @@ color:
 footer: Nähzwockel
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+sociallinks:
   - title: instagram
     url: https://instagram.com/naehzwockel
+
+social:
+  name: Nähzwockel
+  links:
+    - https://instagram.com/naehzwockel
+
+lang: de_DE
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
