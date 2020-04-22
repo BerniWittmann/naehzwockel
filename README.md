@@ -1,10 +1,10 @@
 # Nähzwockel
 
-![](img/logo.png)
+![](img/logo.png | width=100)
 
-> Website for Nähzwockel: A store for selling self-made products
+> Landingpage for Nähzwockel: A store for selling self-made products
 
-### :globe: [https://naehzwockel.de](https://naehzwockel.de)
+### :globe_with_meridians: [https://naehzwockel.de](https://naehzwockel.de)
 
 ## :gear: Installation
 
