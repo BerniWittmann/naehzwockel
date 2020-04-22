@@ -1,6 +1,6 @@
-# Nähzwockel
+<img src="img/logo.png" width="256" height="256" alt=""/>
 
-![](img/logo.png | width=100)
+# Nähzwockel
 
 > Landingpage for Nähzwockel: A store for selling self-made products
 
