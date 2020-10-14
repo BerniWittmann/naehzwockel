@@ -25,8 +25,8 @@ ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet 
 <br />
 Maren Iske Nähzwockel<br />
 Maren Iske<br />
-Zinglerstraße 50<br />
-D-89077 Ulm<br />
+Dr.-Stumpf-Straße 42B<br />
+AT-6020 Innsbruck<br />
 <!--Registernummer 12345<br />-->
 <!--Registergericht Ulm<br />-->
 <br />
@@ -118,8 +118,8 @@ Um Ihr Widerrufsrecht auszuüben, müssen Sie uns<br />
 <div style="margin-left:20px; margin-top: 5px; margin-bottom:5px;">
     Maren Iske Nähzwockel<br />
     Maren Iske<br />
-    Zinglerstraße 50<br />
-    D-89077 Ulm<br />
+    Dr.-Stumpf-Straße 42B<br />
+    AT-6020 Innsbruck<br />
     E-Mail info@naehzwockel.de<br />
         </div>
 mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss,
@@ -169,8 +169,8 @@ Sie tragen die unmittelbaren Kosten der Rücksendung der Waren.<br />
 An :<br />
 Maren Iske Nähzwockel<br />
 Maren Iske<br />
-Zinglerstraße 50<br />
-D-89077 Ulm<br />
+Dr.-Stumpf-Straße 42B<br />
+AT-6020 Innsbruck<br />
 E-Mail info@naehzwockel.de<br />
 <br />
 

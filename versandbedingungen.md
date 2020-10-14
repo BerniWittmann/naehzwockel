@@ -8,7 +8,7 @@ permalink: '/versand-und-zahlungsbedingungen'
 
 ## Versandkosten und -informationen
 
-Die Versandkosten richten sich nach den Dimensionen und Gewicht der Artikel. Der Versand erfolg per Deutscher Post. Die genauen Versandkosten werden per E-Mail mitgeteilt. Ihre Artikel werden nach Erhalt der Zahlung verschickt.
+Die Versandkosten richten sich nach den Dimensionen und Gewicht der Artikel. Der Versand erfolg per Deutscher/Österreichischer Post. Die genauen Versandkosten werden per E-Mail mitgeteilt. Ihre Artikel werden nach Erhalt der Zahlung verschickt.
 
 ## Zahlungsinformationen
 

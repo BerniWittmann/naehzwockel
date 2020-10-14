@@ -9,8 +9,9 @@ permalink: '/imprint'
 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
 <p>Maren Iske<br />
 Maren Iske Nähzwockel (Einzelunternehmer)<br />
-Zinglerstraße 50<br />
-89077 Ulm</p>
+Dr.-Stumpf-Straße 42B<br />
+6020 Innsbruck<br />
+Österreich</p>
 
 <h2>Kontakt</h2>
 <p>Telefon: +49 (0) 731/16578804<br />
