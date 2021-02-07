@@ -14,7 +14,7 @@ Dr.-Stumpf-Straße 42B<br />
 Österreich</p>
 
 <h2>Kontakt</h2>
-<p>Telefon: +49 (0) 731/16578804<br />
+<p>Telefon: +43 670 5540102<br />
 E-Mail: info@naehzwockel.de</p>
 
 <!--<h2>Umsatzsteuer-ID</h2>
